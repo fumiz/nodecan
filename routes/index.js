@@ -8,7 +8,7 @@ var syntax_defs = require('../syntax_conf.js');
 // /index
 exports.index = function(req, res){
   res.render('index', {
-      title: 'Nodebin',
+      title: 'Nodecan',
       syntax: syntax_defs.defs
     });
 };
