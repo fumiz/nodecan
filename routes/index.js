@@ -48,7 +48,8 @@ exports.bin = function(req, res){
     } else {
       res.render('bin', {
           title: 'Document Not Found',
-          body: 'please check url'
+          body: 'please check url',
+          syntax: 'text'
       });
     }
   });
