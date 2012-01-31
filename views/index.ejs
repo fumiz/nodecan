@@ -1,0 +1,19 @@
+<h1><%= title %></h1>
+<p>Input text and share</p>
+<div>
+<form method="post" action="/add">
+  <div>
+    <textarea name="body" rows="20" cols="100"></textarea>
+  </div>
+ <div>
+    Syntax Hilighting:
+    <select name="syntax">
+      <% for(var i=0; i<syntax.length; i++) { %>
+      <option value="<%= syntax[i].aliases[0] %>"><%= syntax[i].name %></option>
+      <% } %>
+   </select>
+    <input type="submit" value="Share" />
+  </div>
+</form>
+</div>
+
