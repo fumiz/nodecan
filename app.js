@@ -32,5 +32,5 @@ app.get('/', routes.index);
 app.post('/add', routes.add);
 app.get('/bin/:id', routes.bin);
 
-app.listen(3003);
+app.listen(conf.port);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
