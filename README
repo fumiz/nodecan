@@ -6,8 +6,9 @@ Simple functions.
 Simple implementation.
 
 Setup
-1. git://github.com/fumiz/nodecan.git
+1. git clone git://github.com/fumiz/nodecan.git
 2. cd nodecan
-3. edit conf.json
-4. node app.js
+3. npm install
+4. edit conf.json
+5. node app.js
 
