@@ -5,3 +5,9 @@ Simple usage.
 Simple functions.
 Simple implementation.
 
+Setup
+1. git://github.com/fumiz/nodecan.git
+2. cd nodecan
+3. edit conf.json
+4. node app.js
+
