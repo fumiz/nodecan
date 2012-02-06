@@ -12,7 +12,7 @@ exports.add = function(req, res){
   bin.syntax = syntax;
   bin.save(function(err){
     res.contentType('application/json');
-    res.send({url: '/bin/' + bin._id});
+    res.send('/bin/' + bin._id);
   });
 };
 
